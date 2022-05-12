@@ -3,4 +3,4 @@ const fs = require('fs');
 const path = require('path');
 console.log(os.platform());
 console.log(__dirname);
-console.log(fs.readdirSync('/home'));
+console.log(fs.readdirSync('/'));
